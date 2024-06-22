@@ -1,6 +1,6 @@
 
   function countDown() {
-    let deadline = new Date("2023-12-23T00:00:00");
+    let deadline = new Date("2024-12-21T00:00:00");
     let seconds = (deadline.getTime() - Date.now()) / 1000;
     let gepDays = Math.floor(((deadline.getTime() - Date.now()) / 1000)/60/60/24)
     document.querySelector(
